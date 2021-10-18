@@ -9,14 +9,15 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class Hw807Application {
 
-	@GetMapping("/")
+	/*@GetMapping("/")
 	public String msg()
 	{
 		return "Hello World!!";
-	}
+	}*/
 	
 	public static void main(String[] args) {
 		SpringApplication.run(Hw807Application.class, args);
+		System.out.println("Hello World!!!");
 	}
 
 }
